@@ -8,19 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		7A61C27029C3F94B00D1CE2F /* swiftui_chatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61C26F29C3F94B00D1CE2F /* swiftui_chatApp.swift */; };
-		7A61C27229C3F94B00D1CE2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61C27129C3F94B00D1CE2F /* ContentView.swift */; };
+		7A61C27229C3F94B00D1CE2F /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61C27129C3F94B00D1CE2F /* RootView.swift */; };
 		7A61C27429C3F94D00D1CE2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A61C27329C3F94D00D1CE2F /* Assets.xcassets */; };
 		7A61C27729C3F94D00D1CE2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A61C27629C3F94D00D1CE2F /* Preview Assets.xcassets */; };
 		7A61C28829C4042D00D1CE2F /* LexendDeca-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A61C28529C4042D00D1CE2F /* LexendDeca-Bold.ttf */; };
 		7A61C28929C4042D00D1CE2F /* LexendDeca-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A61C28629C4042D00D1CE2F /* LexendDeca-Regular.ttf */; };
 		7A61C28A29C4042D00D1CE2F /* LexendDeca-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A61C28729C4042D00D1CE2F /* LexendDeca-SemiBold.ttf */; };
 		7A61C28D29C408C800D1CE2F /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61C28C29C408C800D1CE2F /* Fonts.swift */; };
+		7A61C29029C410B400D1CE2F /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61C28F29C410B400D1CE2F /* CustomTabBar.swift */; };
+		7A61C29229C4B7D300D1CE2F /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61C29129C4B7D300D1CE2F /* TabBarButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7A61C26C29C3F94B00D1CE2F /* swiftui-chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A61C26F29C3F94B00D1CE2F /* swiftui_chatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_chatApp.swift; sourceTree = "<group>"; };
-		7A61C27129C3F94B00D1CE2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A61C27129C3F94B00D1CE2F /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		7A61C27329C3F94D00D1CE2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A61C27629C3F94D00D1CE2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A61C28529C4042D00D1CE2F /* LexendDeca-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LexendDeca-Bold.ttf"; sourceTree = "<group>"; };
@@ -28,6 +30,8 @@
 		7A61C28729C4042D00D1CE2F /* LexendDeca-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LexendDeca-SemiBold.ttf"; sourceTree = "<group>"; };
 		7A61C28B29C404B900D1CE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7A61C28C29C408C800D1CE2F /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		7A61C28F29C410B400D1CE2F /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		7A61C29129C4B7D300D1CE2F /* TabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +89,8 @@
 		7A61C27E29C3F9A900D1CE2F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7A61C27129C3F94B00D1CE2F /* ContentView.swift */,
+				7A61C27129C3F94B00D1CE2F /* RootView.swift */,
+				7A61C28E29C4103E00D1CE2F /* Custom Tab Bar */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -127,6 +132,15 @@
 				7A61C28729C4042D00D1CE2F /* LexendDeca-SemiBold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7A61C28E29C4103E00D1CE2F /* Custom Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				7A61C28F29C410B400D1CE2F /* CustomTabBar.swift */,
+				7A61C29129C4B7D300D1CE2F /* TabBarButton.swift */,
+			);
+			path = "Custom Tab Bar";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,7 +216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A61C27229C3F94B00D1CE2F /* ContentView.swift in Sources */,
+				7A61C29229C4B7D300D1CE2F /* TabBarButton.swift in Sources */,
+				7A61C29029C410B400D1CE2F /* CustomTabBar.swift in Sources */,
+				7A61C27229C3F94B00D1CE2F /* RootView.swift in Sources */,
 				7A61C28D29C408C800D1CE2F /* Fonts.swift in Sources */,
 				7A61C27029C3F94B00D1CE2F /* swiftui_chatApp.swift in Sources */,
 			);
