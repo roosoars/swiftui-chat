@@ -9,7 +9,7 @@ import SwiftUI
 
 struct RootView: View {
     
-    @State var selectedTab: Tabs = .contacts
+    @State var selectedTab: Tabs = .chats
     
     
     var body: some View {
@@ -18,7 +18,7 @@ struct RootView: View {
             
             Text("Hello, World!")
                 .padding()
-                .font(Font.settings)
+                .font(Font.chatHeading)
             
             Spacer()
             
